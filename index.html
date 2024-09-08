@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pratos Típicos: Festa Junina</title>
+</head>
+
+<body>
+    <header>
+        <h1>Festa Junina: Culinária</h1>
+    </header>
+    <main>
+        <section class="pratos">
+            <h2>Pratos típicos da Festa Junina</h2>
+            <ul>
+                <li>Pamonha</li>
+                <li>Curau</li>
+                <li>Canjica</li>
+                <li>Bolo de Milho</li>
+                <li>Arroz-doce</li>
+                <li>Paçoca</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Pesquise a receita do prato:</h2>
+            <input type="text" placeholder="Digite o nome do prato" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>Pratos Típicos da Festa Junina</p>
+        <p>Saiba mais em: https://blog.bretas.com.br/mercearia/receitas-festa-junina-pratos-tipicos/</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
